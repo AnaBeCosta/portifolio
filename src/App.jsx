@@ -107,7 +107,7 @@ const handleDownloadCV = () => {
   return (
     <>
       <Helmet>
-        <title>DEV Ana Beatriz</title>
+        <title>ANA COSTA</title>
         <meta name="description" content="Portfólio de uma desenvolvedora criativa, especializada em interfaces inteligentes e experiências digitais inovadoras." />
       </Helmet>
       
@@ -214,11 +214,11 @@ const handleDownloadCV = () => {
                     className="space-y-6"
                   >
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Sou uma desenvolvedora apaixonada pela interseção entre design, planejamento e tecnologia. Minha missão é criar produtos que não apenas funcionem de forma eficiente, mas que também encantem e engajem seus usuários.                    </p>
+                      Sou desenvolvedora com interesse em conectar design, tecnologia e gestão de projetos para entregar soluções eficientes e centradas no usuário.                                      </p>           
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Tenho experiência prática em design, atuando em estágio na Foursys e evoluindo do estágio à posição de desenvolvedora júnior na Sankhya. Além disso, adquiri conhecimentos em análise de requisitos e gestão de projetos durante meu trabalho na Viasoft.                    </p>
+                      Atuei como designer UI estagiária na Foursys e evoluí para desenvolvedora júnior na Sankhya, onde aprofundei minha base técnica e participei ativamente de projetos no setor financeiro. Posteriormente, na Viasoft, atuei como analista de requisitos pleno em um sistema voltado para o agronegócio, onde expandi meus conhecimentos em análise de requisitos e gestão de projetos, contribuindo para soluções mais alinhadas às necessidades reais do negócio.                               </p>
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Atualmente, estou estudando inteligência artificial e aberta a novas oportunidades, inclusive em outras linguagens e áreas da tecnologia.                              </p>
+                      Atualmente, estou estudando inteligência artificial e sigo aberta a novos desafios. Inclusive em novas linguagens e áreas da negócio.                              </p>
                   </motion.div>
                 </div>
               </div>
