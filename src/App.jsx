@@ -61,7 +61,7 @@ const handleDownloadCV = () => {
 
   const skills = [
     { name: "Backend", icon: Layers, items: ["Java, Spring Boot, JPA", "Python", "REST APIs, Microsserviços", "JUnit, Wiremock"] },
-    { name: "Frontend", icon: Code, items: ["React", "Web Components", "UX/UI"] },
+    { name: "Frontend", icon: Code, items: ["React", "Web Components", "Flutter", "UX/UI"] },
   //  { name: "Inteligência Artificial", icon: BrainCircuit, items: ["TensorFlow", "PyTorch", "NLP"] },
     { name: "Metodologias e Soft Skills", icon: Palette, items: ["Scrum", "Kanban", "Confluence", "Jira", "Inglês intermediário"] },
     { name: "Ferramentas e DevOps", icon: CircuitBoard, items: ["Docker", "Git e GitHub Actions", "AWS e Google Cloud (básico)", "SonarQube", "DBeaver, PostgreSQL, NoSQL"] }
@@ -75,7 +75,7 @@ const handleDownloadCV = () => {
       link: "https://app.rocketseat.com.br/certificates/84b5e99a-b8ea-43da-bff3-ab07f64d2f4c",
     },
     {
-      title: "Devops",
+      title: "Cloud DevOps",
       issuer: "Alura",
       year: "2025",
     },
@@ -83,6 +83,7 @@ const handleDownloadCV = () => {
       title: "Workshop Python Básico",
       issuer: "WoMarkers Code",
       year: "2025",
+      link: "https://www.maismulheres.tech/certificates/6tckuboxql",
     }
   ];
 
@@ -151,8 +152,8 @@ const handleDownloadCV = () => {
                   className="mb-8"
                 >
                   <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tighter">
-                    <TextoAnimado className="text-white"texto=" Hello, I'm" />
-                    <TextoAnimado className="text-gray-400" texto=" Ana Costa" />
+                    <TextoAnimado className="text-gray-400"texto=" Hello, I'm" />
+                    <TextoAnimado className="text-white" texto=" Ana Costa" />
                   </h1>
 
                   <p className="text-x md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
@@ -214,11 +215,11 @@ const handleDownloadCV = () => {
                     className="space-y-6"
                   >
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Sou desenvolvedora com interesse em conectar design, tecnologia e gestão de projetos para entregar soluções eficientes e centradas no usuário.                                      </p>           
+                      Sou desenvolvedora formada em Engenharia de Software pela Universidade Tecnológica Federal do Paraná (UTFPR), com interesse em conectar design, tecnologia e gestão de projetos para entregar soluções eficientes e centradas no usuário.                                       </p>           
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Atuei como designer UI estagiária na Foursys e evoluí para desenvolvedora júnior na Sankhya, onde aprofundei minha base técnica e participei ativamente de projetos no setor financeiro. Posteriormente, na Viasoft, atuei como analista de requisitos pleno em um sistema voltado para o agronegócio, onde expandi meus conhecimentos em análise de requisitos e gestão de projetos, contribuindo para soluções mais alinhadas às necessidades reais do negócio.                               </p>
+                      Iniciei minha trajetória como estagiária designer UI na Foursys e, posteriormente, atuei como desenvolvedora júnior na Sankhya, onde aprofundei minha base técnica e participei de projetos no setor financeiro. Minha última experiência foi na Viasoft, onde trabalhei como analista de requisitos pleno em um sistema voltado para o agronegócio, expandindo meus conhecimentos em análise de requisitos e gestão de projetos.                                </p>
                     <p className="text-lg text-gray-400 leading-relaxed">
-                      Atualmente, estou estudando inteligência artificial e sigo aberta a novos desafios. Inclusive em novas linguagens e áreas da negócio.                              </p>
+                      Atualmente, estou estudando inteligência artificial e sigo aberta a novos desafios, incluindo o aprendizado de novas linguagens e a atuação em diferentes áreas do negócio.                              </p>
                   </motion.div>
                 </div>
               </div>
