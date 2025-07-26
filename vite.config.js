@@ -210,6 +210,7 @@ export default defineConfig({
 		},
 	},
 	build: {
+		outDir: 'build',
 		rollupOptions: {
 			external: [
 				'@babel/parser',
@@ -219,5 +220,4 @@ export default defineConfig({
 			]
 		}
 	},
-	base: "/portifolio/",
 });

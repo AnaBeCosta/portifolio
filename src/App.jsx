@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
-import { Github, Linkedin, Mail, ExternalLink, Download, Code, CircuitBoard, Layers, Palette, Award } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Download, Code, CircuitBoard, Layers, Palette, Award, BrainCircuit } from 'lucide-react';
 import { FaWhatsapp } from "react-icons/fa";
 import { Button } from '@/components/ui/button';
 import { Toaster } from '@/components/ui/toaster';
@@ -34,7 +34,7 @@ function App() {
 
 const handleDownloadCV = () => {
   const link = document.createElement('a');
-  link.href = 'https://drive.google.com/uc?export=download&id=1CJfxmYVyClbeb6mXaFztSp9fJmxCYGIr';
+  link.href = '  https://drive.google.com/uc?export=download&id=1H6amlp9qKYYLCbXXgJPbb9AkYT__Z6L2';
   link.download = 'AnaBeatrizCostaCV.pdf'; // nome que será salvo no download
   document.body.appendChild(link);
   link.click();
@@ -62,7 +62,7 @@ const handleDownloadCV = () => {
   const skills = [
     { name: "Backend", icon: Layers, items: ["Java, Spring Boot, JPA", "Python", "REST APIs, Microsserviços", "JUnit, Wiremock"] },
     { name: "Frontend", icon: Code, items: ["React", "Web Components", "Flutter", "UX/UI"] },
-  //  { name: "Inteligência Artificial", icon: BrainCircuit, items: ["TensorFlow", "PyTorch", "NLP"] },
+    { name: "Inteligência Artificial", icon: BrainCircuit, items: ["ML", "sklearn", "KKN"] },
     { name: "Metodologias e Soft Skills", icon: Palette, items: ["Scrum", "Kanban", "Confluence", "Jira", "Inglês intermediário"] },
     { name: "Ferramentas e DevOps", icon: CircuitBoard, items: ["Docker", "Git e GitHub Actions", "AWS e Google Cloud (básico)", "SonarQube", "DBeaver, PostgreSQL, NoSQL"] }
   ];
@@ -78,12 +78,19 @@ const handleDownloadCV = () => {
       title: "Cloud DevOps",
       issuer: "Alura",
       year: "2025",
+      link: "https://cursos.alura.com.br/immersion/imersao-devops-google/user/anacost-a/certificate",
     },
     {
       title: "Workshop Python Básico",
       issuer: "WoMarkers Code",
       year: "2025",
       link: "https://www.maismulheres.tech/certificates/6tckuboxql",
+    },
+    {
+      title: "Introdução ao Machine Learning",
+      issuer: "Hype - USP",
+      year: "2025",
+      link: "https://drive.google.com/file/d/1b73AN8C8-hXX2mLH3966NWpxBbW_AOmi/view?usp=sharing",
     }
   ];
 

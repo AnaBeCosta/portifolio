@@ -6,7 +6,7 @@
 	"homepage": "https://anabecosta.github.io/portifolio/",
 	"scripts": {
 		"dev": "vite",
-		"build": "node tools/generate-llms.js || true && vite build",
+		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"dependencies": {
